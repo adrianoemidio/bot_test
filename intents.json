@@ -1,0 +1,30 @@
+{"intents": [
+    {"tag": "Saudações",
+     "patterns": ["Oi", "Olá","Ola", "Como você está?", "Como vc tá", "Eay","Td bem?", "Bom dia","Boa tarde","Boa noite"],
+     "responses": ["Olá", "Oi", "Oi como posso ajuda-lo?"],
+     "context_set": ""
+    },
+    {"tag": "Despedidas",
+     "patterns": ["tchau", "até mais", "até +","adeus","até outra hora"],
+     "responses": ["até mais, obrigado pela visita", "tenha um bom dia", "Tchau!"]
+    },
+    {"tag": "Agradecimneto",
+     "patterns": ["Obrigado", "Agradecido", "Agradecida","Muito Obrigado","Muito obrigada","Muito agardecido"],
+     "responses": ["De nada", "Disponha", "Eu que agradeço"]
+    },
+    {"tag": "Horário",
+     "patterns": ["Qual horário de funcionamento?", "Quando é que abre", "Que horas que fecha?","Até que horas fica aberto?", " Horairo de funcionamento", "Horario de abertura","Horário Fechamento","Horário","Funcionamento"],
+     "responses": ["Funcionamos de seg a sex das 8:00 as 18:00", "Abrimos em dias úteis das 8:00 as 18:00"]
+    },
+    {"tag": "Pagamentos",
+     "patterns": ["Aceita cartão", "Vocẽs aceitam débito", "Pagamento no dinheiro ou no cartão?", "Formas de pagamento", "Como pagar", "Aceita cartão de crédito", "Vocês aceitam cartão de débito","cartão débito","cartão crédito","cartão","débito","crédito","pagamento" ],
+     "responses": ["Além de dinheiro", "aceitamos cartão de débito e crédito", "Pode pagar em dinheiro ou em cartões de débito e crédito"]
+    },
+    {
+        "tag": "Panela",
+        "patterns": ["Vocês Vemdem panelas", "Vocẽs trabalham com panelas", "Tem panela aí", "vende panela", "Queria comprar uma panela"],
+        "responses": ["Temos panela da tramontina", "Temos sim, trabalhamdo com tramontina", "Claro!, somos revendedores tramontina"]
+        
+    }
+]
+}
